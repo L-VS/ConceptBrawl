@@ -1,0 +1,87 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background: linear-gradient(to bottom, #0a0a0a, #1a1a1a);
+    color: #fff;
+}
+
+/* Header styles */
+header {
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #f8c21f;
+    text-shadow: 2px 2px #333;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f8c21f;
+    font-size: 1.2rem;
+}
+
+/* Hero section */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: url('background.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    color: #fff;
+    text-shadow: 2px 2px #333;
+}
+
+/* Brawlers section */
+.brawler-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.brawler-card {
+    background: #222;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+.brawler-card h3 {
+    color: #f8c21f;
+    margin: 10px 0;
+}
+
+.brawler-card p {
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #111;
+    color: #888;
+    font-size: 0.8rem;
+}
