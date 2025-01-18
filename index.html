@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shadow Brawlers</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
 </head>
 <body>
     <header>
@@ -22,28 +23,31 @@
         <div class="hero">
             <h2>Welcome to Concept Brawlers</h2>
             <p>Explore the most exciting shadow-themed skins for your favorite brawlers!</p>
+            <img src="addsupercel.jpg" alt="Supercell Ad" class="promo-banner">
         </div>
     </section>
 
     <section id="brawlers">
         <h2>Brawlers</h2>
         <div class="brawler-gallery">
-            <!-- Example Card -->
+            <!-- Shadow Corbac Card -->
             <div class="brawler-card">
                 <div class="model-viewer-container">
-                    <!-- Three.js canvas for 3D model -->
-                    <canvas id="crowModel"></canvas>
+                    <model-viewer src="corbac.glb" alt="Shadow Corbac" auto-rotate camera-controls></model-viewer>
                 </div>
                 <h3>Shadow Corbac</h3>
                 <p>A stealthy assassin with dark, mysterious power.</p>
+                <a href="corbac.html" class="details-button">View Details</a>
             </div>
 
+            <!-- Shadow Léon Card -->
             <div class="brawler-card">
                 <div class="model-viewer-container">
-                    <canvas id="leonModel"></canvas>
+                    <model-viewer src="leon.glb" alt="Shadow Léon" auto-rotate camera-controls></model-viewer>
                 </div>
                 <h3>Shadow Léon</h3>
                 <p>A cunning trickster who thrives in the shadows.</p>
+                <a href="leon.html" class="details-button">View Details</a>
             </div>
         </div>
     </section>
