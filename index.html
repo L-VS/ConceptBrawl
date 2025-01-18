@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shadow Brawlers</title>
+    <!-- Link to the external CSS file for styling -->
     <link rel="stylesheet" href="style.css">
+    <!-- Include Three.js for handling 3D models -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
 </head>
 <body>
@@ -12,6 +14,7 @@
         <h1>Shadow Brawlers</h1>
         <nav>
             <ul>
+                <!-- Navigation links for quick access to sections -->
                 <li><a href="#home">Home</a></li>
                 <li><a href="#brawlers">Brawlers</a></li>
                 <li><a href="#about">About</a></li>
@@ -21,8 +24,10 @@
 
     <section id="home">
         <div class="hero">
+            <!-- Hero section with a welcoming message -->
             <h2>Welcome to Concept Brawlers</h2>
             <p>Explore the most exciting shadow-themed skins for your favorite brawlers!</p>
+            <!-- Promotional banner image to attract user attention -->
             <img src="addsupercel.jpg" alt="Supercell Ad" class="promo-banner">
         </div>
     </section>
@@ -30,23 +35,27 @@
     <section id="brawlers">
         <h2>Brawlers</h2>
         <div class="brawler-gallery">
-            <!-- Shadow Corbac Card -->
+            <!-- Card for the brawler Shadow Corbac -->
             <div class="brawler-card">
                 <div class="model-viewer-container">
+                    <!-- Displaying a 3D model of Shadow Corbac using <model-viewer> -->
                     <model-viewer src="corbac.glb" alt="Shadow Corbac" auto-rotate camera-controls></model-viewer>
                 </div>
                 <h3>Shadow Corbac</h3>
                 <p>A stealthy assassin with dark, mysterious power.</p>
+                <!-- Button linking to Shadow Corbac's detail page -->
                 <a href="corbac.html" class="details-button">View Details</a>
             </div>
 
-            <!-- Shadow Léon Card -->
+            <!-- Card for the brawler Shadow Léon -->
             <div class="brawler-card">
                 <div class="model-viewer-container">
+                    <!-- Displaying a 3D model of Shadow Léon using <model-viewer> -->
                     <model-viewer src="leon.glb" alt="Shadow Léon" auto-rotate camera-controls></model-viewer>
                 </div>
                 <h3>Shadow Léon</h3>
                 <p>A cunning trickster who thrives in the shadows.</p>
+                <!-- Button linking to Shadow Léon's detail page -->
                 <a href="leon.html" class="details-button">View Details</a>
             </div>
         </div>
@@ -54,13 +63,16 @@
 
     <section id="about">
         <h2>About</h2>
+        <!-- Provide context about the purpose and nature of the site -->
         <p>This site is a fan-made showcase of shadow-themed skins for Brawl Stars brawlers. Explore, enjoy, and share!</p>
     </section>
 
     <footer>
+        <!-- Footer with copyright notice for the site -->
         <p>L-VS Concept © 2025. Fan-made site.</p>
     </footer>
 
+    <!-- Link to the external JavaScript file for additional functionality -->
     <script src="script.js"></script>
 </body>
 </html>
